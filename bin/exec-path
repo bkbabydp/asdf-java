@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+install_path=$1
+cmd=$2
+executable_path=$3
+
+echo "$executable_path"

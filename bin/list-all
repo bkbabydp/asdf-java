@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+basepath="$(
+    cd "$(dirname "$0")" || exit
+    pwd
+)"/../.jabba
+[ -s "${basepath}/jabba.sh" ] && . "${basepath}/jabba.sh"
+
+jabba ls-remote | xargs
