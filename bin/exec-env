@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+if [ "${JAVA_HOME-}" = "" ] && [ -n "${ASDF_INSTALL_PATH}" ]; then
+  export JAVA_HOME=${ASDF_INSTALL_PATH}/Contents/Home
+fi
