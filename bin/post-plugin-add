@@ -2,4 +2,4 @@
 
 export JABBA_HOME=${ASDF_PLUGIN_PATH}/.jabba
 
-[ -s "$JABBA_HOME/jabba.sh" ] || (curl -sL https://github.com/shyiko/jabba/raw/master/install.sh | bash -s -- --skip-rc) # && . "${JABBA_HOME}/jabba.sh")
+[ -s "$JABBA_HOME/jabba.sh" ] || (curl -sSL https://github.com/shyiko/jabba/raw/master/install.sh | bash -s -- --skip-rc) # && . "${JABBA_HOME}/jabba.sh")
